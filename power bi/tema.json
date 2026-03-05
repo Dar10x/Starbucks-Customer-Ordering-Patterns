@@ -1,0 +1,83 @@
+{
+    "name": "Starbucks Vibrant High-Contrast",
+    "dataColors": [
+        "#00704A", 
+        "#00B372", 
+        "#00E691", 
+        "#24825F", 
+        "#80FFD1", 
+        "#C2FFE9", 
+        "#004D33", 
+        "#FFCC00" 
+    ],
+    "background": "#FFFFFF",
+    "foreground": "#00704A",
+    "tableAccent": "#00704A",
+    "visualStyles": {
+        "*": {
+            "*": {
+                "background": [
+                    {
+                        "show": true,
+                        "color": { "solid": { "color": "#FFFFFF" } },
+                        "transparency": 0
+                    }
+                ],
+                "visualHeader": [
+                    {
+                        "show": true
+                    }
+                ],
+                "border": [
+                    {
+                        "show": true,
+                        "color": { "solid": { "color": "#E6E6E6" } },
+                        "radius": 15
+                    }
+                ],
+                "dropShadow": [
+                    {
+                        "show": true,
+                        "color": { "solid": { "color": "#000000" } },
+                        "transparency": 90,
+                        "preset": "BottomRight"
+                    }
+                ]
+            }
+        },
+        "columnChart": {
+            "*": {
+                "categoryAxis": [
+                    {
+                        "fontSize": 10,
+                        "fontFamily": "Manrope",
+                        "labelColor": { "solid": { "color": "#333333" } }
+                    }
+                ],
+                "dataLabels": [
+                    {
+                        "show": true,
+                        "color": { "solid": { "color": "#00704A" } },
+                        "fontFamily": "Manrope"
+                    }
+                ]
+            }
+        },
+        "slicer": {
+            "*": {
+                "header": [
+                    {
+                        "fontFamily": "Manrope",
+                        "fontColor": { "solid": { "color": "#00704A" } }
+                    }
+                ],
+                "items": [
+                    {
+                        "fontFamily": "Manrope",
+                        "fontColor": { "solid": { "color": "#333333" } }
+                    }
+                ]
+            }
+        }
+    }
+}
